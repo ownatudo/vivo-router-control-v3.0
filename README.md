@@ -2,7 +2,7 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
-[![Author: belawer](https://img.shields.io/badge/Author-belawer-purple?style=for-the-badge)](https://github.com/belawer)
+[![Author: belawer](https://img.shields.io/badge/Author-belawer-purple?style=for-the-badge)](https://github.com/ownatudo)
 
 O **Vivo Router Control** é uma ferramenta de terminal (CLI) poderosa e automatizada para gerenciar roteadores Vivo. Ele permite realizar reboots remotos e trocas de IP externo de forma inteligente, sendo ideal para quem precisa de novos endereços IP de forma rápida e segura.
 
