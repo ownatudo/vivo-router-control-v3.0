@@ -1,0 +1,43 @@
+{
+  "name": "router-reboot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reboot-cli.js",
+  "scripts": {
+    "start": "node reboot-cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "axios-cookiejar-support": "^6.0.5",
+    "chalk": "^4.1.2",
+    "crypto-js": "^4.2.0",
+    "express": "^5.2.1",
+    "inquirer": "^8.2.7",
+    "ora": "^5.4.1",
+    "sqlite3": "^5.1.7",
+    "tough-cookie": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4",
+    "javascript-obfuscator": "^5.3.0",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/axios/**/*.js",
+      "node_modules/chalk/**/*.js",
+      "node_modules/inquirer/**/*.js",
+      "node_modules/ora/**/*.js",
+      "node_modules/crypto-js/**/*.js",
+      "node_modules/tough-cookie/**/*.js",
+      "node_modules/axios-cookiejar-support/**/*.js"
+    ],
+    "assets": [
+      "config.db"
+    ]
+  }
+}
